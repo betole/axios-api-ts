@@ -1,0 +1,8 @@
+{
+  "graphQL": "/graphql",
+  "rest": {
+    "repos": {
+      "codeFrequency": "/repos/{owner}/{repo}/stats/code_frequency"
+    }
+  }
+}
