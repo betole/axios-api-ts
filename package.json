@@ -1,0 +1,45 @@
+{
+  "name": "axios-api-ts",
+  "version": "1.0.0",
+  "description": "Template for api testing using axios and Typescript",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/betole/axios-api-ts.git"
+  },
+  "keywords": [
+    "api"
+  ],
+  "author": "betole",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/betole/axios-api-ts/issues"
+  },
+  "homepage": "https://github.com/betole/axios-api-ts#readme",
+  "engines": {
+    "node": "20.9",
+    "npm": "10"
+  },
+  "type": "module",
+  "scripts": {
+    "ts:check": "tsc",
+    "test": "ts-mocha -r dotenv/config api/tests/github/**/*.spec.ts"
+  },
+  "dependencies": {
+    "@faker-js/faker": "^8.2.0",
+    "@types/chai": "^4.3.10",
+    "@types/mocha": "^10.0.4",
+    "@types/node": "^20.9.0",
+    "@types/sinon": "^17.0.1",
+    "axios": "^1.6.2",
+    "chai": "^4.3.10",
+    "dotenv": "^16.3.1",
+    "mocha": "^10.2.0",
+    "sinon": "^17.0.1"
+  },
+  "devDependencies": {
+    "ts-mocha": "^10.0.0",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.2.2"
+  }
+}
