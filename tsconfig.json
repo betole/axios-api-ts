@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "target": "ES2022",
+    "lib": ["ES2022", "DOM"],
+    "types": ["node","mocha", "sinon", "chai", "sinonjs__fake-timers"],
+    "resolveJsonModule": true,
+    "allowImportingTsExtensions": true,
+    "noEmit": true,
+    "module": "NodeNext",
+    "noImplicitAny": true,
+    "baseUrl": "./node_modules",
+  },
+  "include": ["**/*.ts", "**/*.spec.ts"],
+}

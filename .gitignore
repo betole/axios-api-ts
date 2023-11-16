@@ -1,0 +1,9 @@
+#IDE
+.idea
+.vscode
+
+#Packages
+node_modules
+
+#Test temp files
+reports/*.*

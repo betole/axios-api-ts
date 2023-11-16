@@ -1,0 +1,25 @@
+#IDE
+.idea
+.vscode
+
+#Packages
+node_modules
+
+#Test temp files
+reports/*.*
+
+#CI
+Jenkinsfile
+
+#K8S
+.manifests
+
+#Docs
+*.md
+LICENCE
+
+#Git
+.git
+.github
+.gitignore
+
